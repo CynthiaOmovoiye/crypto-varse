@@ -1,7 +1,7 @@
 
 import './App.css';
 import {Routes, Link, Route} from 'react-router-dom';
-import {Layout, Typograghy, Space, Typography} from 'antd'
+import {Layout, Space, Typography} from 'antd'
 import {Cryptocurrencies, CryptoDetails, Exchanges, Homepage, Navbar, News} from  './components'
 
 function App() {
