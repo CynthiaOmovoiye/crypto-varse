@@ -26,7 +26,7 @@ return ()=>window.removeEventListener('resize', handleResize)
             <div className="logo-container">
                 <Avatar src={Icon} size='large'/>
                 <Typography.Title level={2} className="logo">
-                    <Link to="/">CryptoVarse</Link>
+                    <Link to="/">CryptoVarse </Link>
                 </Typography.Title>
                 <Button className = "menu-control-container" onClick={()=>setActiveMenu(!activeMenu)}>
                     <MenuOutlined/>
